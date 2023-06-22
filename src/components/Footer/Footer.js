@@ -6,8 +6,7 @@ import face from '../../assets/face.png';
 import twitter from '../../assets/twitter.png';
 import insta from '../../assets/insta.png';
 import linked from '../../assets/linked.png';
-
-
+import { Link } from "react-router-dom";
 import './Footer.css'
 function Footer(){
     return(
@@ -34,12 +33,12 @@ function Footer(){
                     <div className="col-sm-6 col-md-6 col-lg-3">
                         <h3>Quick Links</h3>
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Booking</a></li>
-                            <li><a href="#">Faq's</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Out Team</a></li>
+                            <li><Link href="#">About Us</Link></li>
+                            <li><Link href="#">Services</Link></li>
+                            <li><Link href="#">Booking</Link></li>
+                            <li><Link href="#">Faq's</Link></li>
+                            <li><Link href="#">Blogs</Link></li>
+                            <li><Link href="#">Out Team</Link></li>
                         </ul>
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-3">
