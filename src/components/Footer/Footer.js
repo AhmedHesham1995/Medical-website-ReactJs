@@ -59,10 +59,10 @@ function Footer(){
                             <input type="submit" value="Subscribe Now"/>
                         </form>
                         <div className="social">
-                            <div><a href="#"><img src={face} alt=""/></a></div>
-                            <div><a href="#"><img src={twitter} alt=""/></a></div>
-                            <div><a href="#"><img src={insta} alt=""/></a></div>
-                            <div><a href="#"><img src={linked} alt=""/></a></div>
+                            <div><Link href="#"><img src={face} alt=""/></Link></div>
+                            <div><Link href="#"><img src={twitter} alt=""/></Link></div>
+                            <div><Link href="#"><img src={insta} alt=""/></Link></div>
+                            <div><Link href="#"><img src={linked} alt=""/></Link></div>
                         </div>
                         <span>+</span>
                     </div>
