@@ -3,12 +3,11 @@ nav{
     width: 100%;
     height: auto;
     border-radius: 0 !important;
-   
+    max-width: 100%;
 }
 
-nav .navbar-nav {
-    margin-left: 250px;
-   
+nav img{
+    margin-right: 250px;
 }
 
 nav .navbar-nav a
