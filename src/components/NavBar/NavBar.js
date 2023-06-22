@@ -19,7 +19,7 @@ function NavBar() {
     <Navbar expand="lg" fixed="top">
       <Container>
         <Navbar.Brand>
-          <NavLink to="/" className="link">
+          <NavLink to="/" className="link" onClick={handleNavClick}>
             <img src={logo} alt="logo" />
           </NavLink>
         </Navbar.Brand>
